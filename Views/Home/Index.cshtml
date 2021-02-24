@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+
+
+<h4><strong>Random passcode (passcode #@ViewBag.count)</strong></h4>
+<div class="passcode">
+    <h2><strong>@ViewBag.password</strong></h2>
+</div>
+    <form action="">
+        <input id="generate" type="Submit">
+    </form>
+<h2>You have clicked the button @ViewBag.Count</h2>
